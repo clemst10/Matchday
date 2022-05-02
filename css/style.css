@@ -47,6 +47,21 @@ body{
     justify-content: space-evenly;
     font-family: 'matchday';
 }
+#btn-user {
+    width: auto;
+    height: auto;
+    background-image: url("img/home/user.png");
+    margin-top: 5;
+    width: 50px;
+}
+#btn-user:hover{
+    background: url("../img/home/user-blanc.png");
+}
+
+#btn-user{
+    display: flex;
+    align-items: center;
+}
 
 /* style des boutons */
 #register {
