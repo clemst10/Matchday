@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-image: url('../img/home/stade.jpg');
+    background-position: center;
     background-size: cover;
 }
 /* style du formulaire */
