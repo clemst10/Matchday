@@ -8,6 +8,9 @@
 }
 /*====================PAGE HOME =======================*/
 
+html {
+	scroll-behavior: smooth;
+}
 
 body{
     background: #ffffff;
