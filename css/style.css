@@ -230,7 +230,8 @@ body{
 
 #photo_fans{
     background-image: url(../img/home/photo_fans.jpg);
-    width: 60%;
+    background: no-repeat;
+    width: 80%;
     height: 400px;
 }
 
@@ -266,7 +267,8 @@ p , li{
 
 #photo_club{
     background-image: url(../img/home/photo_club.jpg);
-    width:100%;
+    background: no-repeat;
+    width:60%;
     height: 400px;
 }
 
@@ -301,6 +303,7 @@ p , li{
 
 #photo_site{
     background-image: url(../img/home/photo_info.jpg);
+    background: no-repeat;
     width: 60%;
     height: 400px;
 }
