@@ -64,6 +64,7 @@ input[id=log] {
 input[id=log]:hover {
     background-color: white;
     color: #53af57;
+    transition: 0.2s;
 }
 
 /* style des boutons inscription */
@@ -83,6 +84,8 @@ input[id=submit] {
 input[id=submit]:hover {
     background-color: white;
     color: #fa8d34;
+    transition: 0.2s;
+
 
 }
 

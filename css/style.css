@@ -82,13 +82,13 @@ body{
 #register:hover {
     background-color: white;
     color: #fa8d34;
+    transition: 0.2s;
 }
 
 #login {
     background-color: #53af57;
     color: white;
     padding: 14px 20px;
-
     border: solid 1px #53af57;
     cursor: pointer;
     width: 100%;
@@ -96,6 +96,7 @@ body{
 #login:hover {
     background-color: white;
     color: #53af57;
+    transition: 0.2s;
 }
 
 /*============1er compartiment fond stade==================*/
