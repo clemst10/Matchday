@@ -50,25 +50,23 @@ body{
     justify-content: space-evenly;
     font-family: 'matchday';
 }
-#btn-user {
-    width: 77px;
+#btn-user img{
+    width: 50px;
     height: auto;
-    background-image: url("../img/home/user.png");
-    background-size: 75px;
-    background-repeat: no-repeat;
     margin-top: 5;
 
 }
 #btn-user:hover{
-    background: url("../img/home/user-blanc.png");
-    background-size: 75px;
-    background-repeat: no-repeat;
     cursor: pointer;
+    filter: contrast(0.2);
+    transition: 0.2s;
 }
 
 #btn-user {
+    width: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 /* style des boutons */
@@ -447,6 +445,7 @@ footer{
         font-family: 'matchday';
     }
 
+
 /*2eme compartiment blanc*/
 
     #info{
@@ -482,6 +481,16 @@ footer{
         height: auto;
         padding-left: 0;
         padding-bottom: 40px;
+    }
 
+/*==================CARTE=====================*/
+
+    #map{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .map__list{
+        display: none;
     }
 }
