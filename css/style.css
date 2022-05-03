@@ -500,4 +500,27 @@ footer{
     #container h1{
         font-size: 1.3rem;
     }
+    /* style des boutons connexion */
+    input[id=log] {
+        margin-left: 20px;
+        width: 80%;
+        
+
+    }
+    input[id=log]:hover {
+        background-color: white;
+        color: #53af57;
+    }
+
+    /* style des boutons inscription */
+
+    input[id=submit] {
+        margin-left: 20px;
+        width: 80%;
+    }
+    input[id=submit]:hover {
+        background-color: white;
+        color: #fa8d34;
+
+    }
 }
