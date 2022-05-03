@@ -493,4 +493,10 @@ footer{
     .map__list{
         display: none;
     }
+
+
+/*==================FORMULAIRE=====================*/
+    #container h1{
+        font-size: 1.3rem;
+    }
 }
